@@ -18,5 +18,8 @@ public class RunnerButLikeAgainThough {
         Car[] carPluralButArray = {beep, honk, vroom};
         ArrayList<Car>  carPluralButList = new ArrayList<Car>(Arrays.asList(carPluralButArray));
         System.out.println(carPluralButList);
+
+        System.out.println();
+        System.out.println(carPluralButList.get(0));
     }
 }
